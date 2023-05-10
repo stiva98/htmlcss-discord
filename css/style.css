@@ -113,7 +113,7 @@ div .my-buttons-big-blue{
 ul{
     list-style-type: none;
 }
-li > *{
+.row-2 li > *{
     color: white;
     padding: 20px;
     font-size: 1.2em;
@@ -166,7 +166,7 @@ div > p{
     margin-bottom: 25px;
 }
 .my-col-1{
-    width: calc((100% / 6) * 2);
+    width: 90%;
 }
 .my-col-2{
     width: calc((100% / 6) * 1);
@@ -188,6 +188,14 @@ div > a{
 }
 .my-col-1 div{
     margin: 15px;
+}
+.my-col-2 > h1{
+    color: #7289da;
+    font-size: 1em;
+}
+.my-col-2 li > *{
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -228,6 +236,9 @@ main .bg-stars{
     background-repeat: no-repeat;
     background-position: center;
 }
+.bord{
+    border-bottom: 1px solid #7289da;
+}
 
 /*
 FOOTER
@@ -237,7 +248,7 @@ FOOTER
     background-color: black;
     padding-top: 20px;
     padding-bottom: 30px;
-    border-bottom: 3px solid #d3d3d3;
+    
 }
 
 
@@ -247,41 +258,4 @@ FOOTER
 
 
 
-.debug .my-colomn-big{
-    background-color: #1e90ff;
-    height: 300px;
-}
-.debug .my-colomn-small{
-    background-color: #ffc0cb;
-    height: 300px;
-}
-   
-.debug .bg-black{
-    background-color: black;
-    height: 800px;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    border-bottom: 3px solid #d3d3d3;
-}
-.debug .my-colomn-big-2{
-    background-color: #20b2aa;
-    height: 700px;
-}
-.debug .my-colomn-small-2{
-    background-color: #f08080;
-    height: 700px;
-}
 
-.debug .bg-black-2{
-    background-color: black;
-    height: 125px;
-    padding-top: 45px;
-}
-.debug .footer-bottom{
-    background-color: #7fffd4;
-    height: 80px;
-}
-.debug .bottons{
-    background-color: #ffc0cb;
-    height: 30px;
-}
