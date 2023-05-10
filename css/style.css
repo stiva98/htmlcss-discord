@@ -35,6 +35,11 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.my-row-column{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 .my-buttons{
     display: inline-block;
     font-size:1em;
@@ -144,12 +149,7 @@ div > p{
 .main-bottom  *{
     text-align: center
 }
-.bg-stars{
-    background-image: url(../img/stars.svg);
-    height: 100px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+
 .bg-stars > h2{
     padding-top: 50px;
 }
@@ -165,6 +165,32 @@ div > p{
     margin-top: 25px;
     margin-bottom: 25px;
 }
+.my-col-1{
+    width: calc((100% / 6) * 2);
+}
+.my-col-2{
+    width: calc((100% / 6) * 1);
+}
+.my-col-1 > h1{
+    color: #7289da;
+}
+span > p{
+    color: white;
+    display: inline-block;
+}
+span > img{
+    vertical-align: middle;
+    height: 20px;
+}
+div > a{
+    color: white;
+    padding: 15px;
+}
+.my-col-1 div{
+    margin: 15px;
+}
+
+
 
 /*
 HEADER
@@ -196,13 +222,25 @@ main .main-bottom{
     padding-top: 100px;
     padding-bottom: 100px;
 }
-
-
-
+main .bg-stars{
+    background-image: url(../img/stars.svg);
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 /*
-DEBUG
+FOOTER
 */
+
+.footer-container{
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #d3d3d3;
+}
+
+
 
 
 
@@ -233,9 +271,7 @@ DEBUG
     background-color: #f08080;
     height: 700px;
 }
-.debug .high{
-    height: 700px;
-}
+
 .debug .bg-black-2{
     background-color: black;
     height: 125px;
