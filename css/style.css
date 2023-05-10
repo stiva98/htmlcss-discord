@@ -1,0 +1,228 @@
+/*
+RESET
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+GENERAL
+*/
+body{
+    font-family: 'Whitney', sans-serif;
+    font-family: 'Whitney Semibold', sans-serif;
+    font-family: 'Whitney Book', sans-serif;
+    font-family: 'Whitney Light', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container-2{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.my-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.my-row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.my-row-between{
+    display: flex;
+    justify-content: space-between;
+}
+.my-buttons{
+    display: inline-block;
+    font-size:1em;
+    width:88px;
+    height:36px;
+    color:black;
+    border-color:white;
+    border-top-left-radius:42px;
+    border-top-right-radius:42px;
+    border-bottom-left-radius:42px;
+    border-bottom-right-radius:42px;
+    background-color: white;
+}
+div .my-buttons-big-white{
+    display: inline-block;
+    font-size:1em;
+    width: 150px;
+    height: 40px;
+    color:black;
+    border-color:white;
+    border-top-left-radius:42px;
+    border-top-right-radius:42px;
+    border-bottom-left-radius:42px;
+    border-bottom-right-radius:42px;
+    background-color: white;
+    margin: 20px;
+}
+div .my-buttons-big-black{
+    display: inline-block;
+    font-size:1em;
+    width: 250px;
+    height: 40px;
+    color:white;
+    border-color:black;
+    border-top-left-radius:42px;
+    border-top-right-radius:42px;
+    border-bottom-left-radius:42px;
+    border-bottom-right-radius:42px;
+    background-color: black;
+}
+
+.row-1{
+    padding: 5px;
+    text-align: left;
+    width: calc((100% / 6) * 1);
+}
+.row-2{
+    text-align: center;
+    width: calc((100% / 3) * 2);
+    padding: 5px;
+}
+.row-3{
+    text-align: right;
+    padding: 5px;
+    width: calc((100% / 6) * 1);    
+}
+ul{
+    list-style-type: none;
+}
+li > *{
+    color: white;
+    padding: 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+.first-title{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+.first-title > h1{
+    color: white;
+    font-size: 3.5em;
+    font: bold;
+    padding-bottom: 20px;
+
+}
+.first-title > p{
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 3px;
+}
+
+
+.my-colomn-big{
+    width: 60%;
+}
+.my-colomn-small{
+    width: 40%;
+}
+.my-colomn-big-2{
+    width: 60%;
+}
+.my-colomn-small-2{
+    width: 40%;
+}
+.logo-cell{
+    width: 5%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/*
+HEADER
+*/
+header .header-top{
+    background-color: #255ee9;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+header .header-bottom{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 500px;
+}    
+/*
+DEBUG
+*/
+
+
+
+
+
+.debug .cell-2{
+    border: 1px dashed white;
+}
+.debug .bg-white{
+    background-color: white;
+    height: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.debug .bg-gray{
+    background-color: #d3d3d3;
+    height: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.debug .my-colomn-big{
+    background-color: #1e90ff;
+    height: 300px;
+}
+.debug .my-colomn-small{
+    background-color: #ffc0cb;
+    height: 300px;
+}
+.debug .bg-gray-2{
+    background-color: #d3d3d3;
+    height: 800px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.debug .bg-green{
+    background-color: #228b22;
+    height: 600px;
+}     
+.debug .bg-black{
+    background-color: black;
+    height: 800px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #d3d3d3;
+}
+.debug .my-colomn-big-2{
+    background-color: #20b2aa;
+    height: 700px;
+}
+.debug .my-colomn-small-2{
+    background-color: #f08080;
+    height: 700px;
+}
+.debug .high{
+    height: 700px;
+}
+.debug .bg-black-2{
+    background-color: black;
+    height: 125px;
+    padding-top: 45px;
+}
+.debug .footer-bottom{
+    background-color: #7fffd4;
+    height: 80px;
+}
+.debug .bottons{
+    background-color: #ffc0cb;
+    height: 30px;
+}
