@@ -12,9 +12,8 @@ GENERAL
 */
 body{
     font-family: 'Whitney', sans-serif;
-    font-family: 'Whitney Semibold', sans-serif;
-    font-family: 'Whitney Book', sans-serif;
-    font-family: 'Whitney Light', sans-serif;
+    font-family: 'Whitney Bold', sans-serif;
+    
 }
 .container{
     max-width: 1200px;
@@ -76,6 +75,20 @@ div .my-buttons-big-black{
     border-bottom-right-radius:42px;
     background-color: black;
 }
+div .my-buttons-big-blue{
+    display: inline-block;
+    font-size:1em;
+    width: 150px;
+    height: 40px;
+    color:white;
+    border-color:#7289da;
+    border-top-left-radius:42px;
+    border-top-right-radius:42px;
+    border-bottom-left-radius:42px;
+    border-bottom-right-radius:42px;
+    background-color: #7289da;
+    margin: 20px;
+}
 
 .row-1{
     padding: 5px;
@@ -110,25 +123,37 @@ li > *{
 }
 .first-title > h1{
     color: white;
-    font-size: 3.5em;
-    font: bold;
+    font-size: 3em;
     padding-bottom: 20px;
-
 }
 .first-title > p{
     color: white;
-    font-size: 1.5em;
+    font-size: 1em;
     text-align: center;
     padding: 3px;
 }
-
-
-.my-colomn-big{
-    width: 60%;
+div > h1{
+    font-size: 3em;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    
 }
-.my-colomn-small{
-    width: 40%;
+div > p{
+    font-size: 1em;
 }
+.main-bottom  *{
+    text-align: center
+}
+.bg-stars{
+    background-image: url(../img/stars.svg);
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg-stars > h2{
+    padding-top: 50px;
+}
+
 .my-colomn-big-2{
     width: 60%;
 }
@@ -153,7 +178,28 @@ header .header-bottom{
     background-image: url(../img/jumbo.png);
     background-size: cover;
     height: 500px;
-}    
+} 
+
+/*
+MAIN
+*/
+main .main-trasparent{
+    padding-top: 50px;
+}
+main .main-gray{
+    background-color: #d3d3d3;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+main .main-bottom{
+    background-color: #d3d3d3;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+
 /*
 DEBUG
 */
@@ -162,21 +208,7 @@ DEBUG
 
 
 
-.debug .cell-2{
-    border: 1px dashed white;
-}
-.debug .bg-white{
-    background-color: white;
-    height: 400px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-.debug .bg-gray{
-    background-color: #d3d3d3;
-    height: 400px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
+
 .debug .my-colomn-big{
     background-color: #1e90ff;
     height: 300px;
@@ -185,16 +217,7 @@ DEBUG
     background-color: #ffc0cb;
     height: 300px;
 }
-.debug .bg-gray-2{
-    background-color: #d3d3d3;
-    height: 800px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-.debug .bg-green{
-    background-color: #228b22;
-    height: 600px;
-}     
+   
 .debug .bg-black{
     background-color: black;
     height: 800px;
