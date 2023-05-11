@@ -166,7 +166,7 @@ div > p{
     margin-bottom: 25px;
 }
 .my-col-1{
-    width: 90%;
+    width: 40%;
 }
 .my-col-2{
     width: calc((100% / 6) * 1);
@@ -196,8 +196,11 @@ div > a{
 .my-col-2 li > *{
     color: white;
     text-decoration: none;
+    font-size: 0.7em;
 }
-
+.width-col{
+    width: 25%;
+}
 
 
 /*
